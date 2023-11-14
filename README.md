@@ -1,3 +1,14 @@
-# WASM-4 Game Engine Dev Environment with Docker
+# WASM-4 Game Engine Development Environments with Docker
 
-Dockerfiles to run a simple dev environment for WASM-4 in Docker.
+This repository contains a set of Dockerfiles to run dev environments, in different languages, for WASM-4 in Docker.
+
+## Languages
+
+- [AssemblyScript](tree/main/AssemblyScript/)
+- Rust (coming soon)
+
+## More Information
+
+- [Docker](https://www.docker.com/)
+- [WASM-4](https://wasm4.org/)
+- [AssemblyScript](https://www.assemblyscript.org/)
