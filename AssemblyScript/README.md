@@ -22,9 +22,9 @@ docker build -t wasm4-as .
 docker run -it -p 4444:4444 -v $(pwd):/usr/src/app --name wasm4-as wasm4-as
 ```
 
-Your docker container should be started and a shell (to that container) should be available.
+A shell access to your Docker container should start.
 
-You can restart that same container (later) with the following commands
+You can restart that same container (later) with the following command
 
 ```
 docker start -ai wasm4-as
@@ -32,7 +32,8 @@ docker start -ai wasm4-as
 
 ## Start a new WASM-4 AssemblyScript project
 
-When you have access to the container, you can create a new WASM-4 AssemblyScript project. You can change the name `test-project`
+Create a new WASM-4 AssemblyScript project within your container.
+You can change the name `test-project`
 
 ```
 w4 new --assemblyscript test-project
