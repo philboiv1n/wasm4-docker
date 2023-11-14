@@ -7,5 +7,5 @@ WORKDIR /usr/src/app
 # Install WASM4
 RUN npm install -g wasm4
 
-# Make bash the default shell
+# Entrypoint
 ENTRYPOINT ["/bin/sh"]
