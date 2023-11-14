@@ -8,7 +8,7 @@ This repository contains instructions to run a simple dev environment for the [W
 
 2 - Create new local directory
 
-3 - Pull the Dockerfile from the AssemblyScript in this repo and copy it in that newly created directory.
+3 - Pull the AssemblyScript Dockerfile and copy it in that newly created directory.
 
 4 - From the terminal (or Code), in that new directory, build the image by running the following
 
