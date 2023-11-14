@@ -2,8 +2,6 @@
 
 This repository contains instructions to run a simple dev environment for the [WASM-4](https://wasm4.org/) + retro game engine using the AssemblyScript language in Docker.
 
----
-
 ## Create the Docker container
 
 1 - Install and run [Docker Desktop](https://www.docker.com/products/docker-desktop/)

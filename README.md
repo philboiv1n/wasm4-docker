@@ -4,7 +4,7 @@ This repository contains a set of Dockerfiles to run dev environments, in differ
 
 ## Languages
 
-- [AssemblyScript](tree/main/AssemblyScript/)
+- [AssemblyScript](https://github.com/philboiv1n/wasm4-docker/tree/main/AssemblyScript)
 - Rust (coming soon)
 
 ## More Information
