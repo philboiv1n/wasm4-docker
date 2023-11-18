@@ -20,6 +20,9 @@ docker build -t wasm4-as .
 
 ```
 docker run -it -p 4444:4444 -v $(pwd):/usr/src/app --name wasm4-as wasm4-as
+
+# Using Command Prompt (cmd):
+docker run -it -p 4444:4444 -v %cd%:/usr/src/app --name wasm4-as wasm4-as
 ```
 
 A shell access to your Docker container should start.
